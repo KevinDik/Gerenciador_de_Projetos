@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "name": "projeto teste",
+      "name": "tete",
       "budget": "5000",
       "category": {
         "id": "3",
@@ -10,17 +10,6 @@
       "cost": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "meu projeto",
-      "budget": "54564",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
     }
   ],
   "categories": [
