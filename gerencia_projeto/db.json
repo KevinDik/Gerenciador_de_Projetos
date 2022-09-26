@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "tete",
-      "budget": "5000",
+      "name": "teste atualizado 3",
+      "budget": "9000",
       "category": {
         "id": "3",
         "name": "Design"
@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "software atualizado 2",
+      "budget": "13000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "testando 2",
+      "budget": "500000",
+      "category": {
+        "id": "6",
+        "name": "Construção civil"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
