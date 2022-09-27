@@ -27,9 +27,10 @@ function Projects() {
             fetch('http://localhost:5000/projects', {
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
             },
-        }).then((resp) => resp.json())
+        })
+        .then((resp) => resp.json())
         .then(data => {
             setProjects(data)
             setRemoveLoading(true)
@@ -72,13 +73,13 @@ function Projects() {
                         id={project.id}
                         budget={project.budget}
                         category={project.category.name}
-                        key={project.key}
+                        key={project.id}
                         handleRemove={removeProject}
                         />
                 ))}
                 {!removeLoading && <Loading/>}
                 {removeLoading && projects.length === 0 &&
-                    <p>Não há projetos cadastrados</p>
+                    (<p>Não há projetos cadastrados</p>)
                 }
             </Container>
         </div>
