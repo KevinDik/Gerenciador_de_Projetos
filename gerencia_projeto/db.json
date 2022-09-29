@@ -7,13 +7,20 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 500,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "500",
+          "description": "teste",
+          "id": "f3d67436-ac63-4dcb-bdc0-9eb29c8b070e"
+        }
+      ],
       "id": 1
     },
     {
       "name": "software atualizado 2",
-      "budget": "13000",
+      "budget": "5000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -50,18 +57,6 @@
     {
       "id": 4,
       "name": "Planejamento"
-    },
-    {
-      "id": 5,
-      "name": "Automobilístico"
-    },
-    {
-      "id": 6,
-      "name": "Construção civil"
-    },
-    {
-      "id": 7,
-      "name": "Serviços"
     }
   ]
 }
