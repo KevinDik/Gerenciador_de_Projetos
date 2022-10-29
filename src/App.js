@@ -7,7 +7,7 @@ import Projects from './Components/Pages/Projects'
 import Project from './Components/Pages/Project'
 
 import Container from './Components/Layouts/Container'
-import NavBar from './Components/Layouts/Navbar'
+import NavBar from './Components/Layouts/NavBar'
 import Footer from './Components/Layouts/Footer'
 
 
